@@ -1,2 +1,2 @@
-# satoshispritz.it
-Lista dei Satoshi Spritz italiani
+# satoshibeer.it
+Lista dei Satoshi Beer italiani
