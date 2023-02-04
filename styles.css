@@ -8,7 +8,9 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
-
+ body, html {
+    height: 100%;
+  }
 
 body {
     line-height: 1.7em;
@@ -101,7 +103,8 @@ a.pure-button-primary {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu {
-    background: #2d3e50;
+    background: #ffffff;
+    
 }
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -111,7 +114,7 @@ a.pure-button-primary {
 }
 
 .home-menu .pure-menu-heading {
-    color: white;
+    color:#2d3e50;
     font-weight: 400;
     font-size: 120%;
 }
@@ -137,7 +140,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background-image: url(assets/beer.jpg);
+    
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -147,6 +150,19 @@ a.pure-button-primary {
     left: 0;
     position: fixed !important;
 }
+
+.bg {
+    /* The image used */
+    background-image: url(assets/beer.jpg);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .splash {
     /* absolute center .splash within .splash-container */
@@ -184,7 +200,7 @@ a.pure-button-primary {
  */
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
-    position: absolute;
+    position: relative;
     top: 87%;
     width: 100%;
     min-height: 12%;
@@ -223,6 +239,7 @@ a.pure-button-primary {
 .ribbon {
     background: #2d3e50;
     color: #aaa;
+    text-align: center;
 }
 
 /* This is the class used for the footer */
