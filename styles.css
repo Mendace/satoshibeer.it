@@ -343,7 +343,7 @@ a.pure-button-primary {
 #map { position: relative; top: 0; bottom: 0; width: 100%; }
 
 .marker {
-    background-image: url('https://github.com/Mendace/satoshibeer.org/blob/main/assets/tappo.png');
+    background-image: url('assets/tappo.png');
     background-size: cover;
     width: 20px;
     height: 20px;
