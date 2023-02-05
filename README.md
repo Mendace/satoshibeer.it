@@ -9,5 +9,7 @@ Satoshi Beer Trieste https://t.me/SatoshiBeerTrieste
 
 Satoshi Beer Milano https://t.me/SatoshiBeerMilano
 
+Satoshi Beer Forli Cesena https://t.me/SatoshiBeerforlicesena
+
 
 ![alt text](https://github.com/Mendace/satoshibeer.org/blob/main/assets/satoshibeer.jpg?raw=true) 
