@@ -11,5 +11,7 @@ Satoshi Beer Milano https://t.me/SatoshiBeerMilano
 
 Satoshi Beer Forli Cesena https://t.me/SatoshiBeerforlicesena
 
+Satoshi Beer Venezia https://t.me/bitcoininvenice
 
-![alt text](https://github.com/Mendace/satoshibeer.org/blob/main/assets/satoshibeer.jpg?raw=true) 
+
+![alt text](https://github.com/Mendace/satoshibeer.org/blob/main/assets/tappo.png?raw=true) 
