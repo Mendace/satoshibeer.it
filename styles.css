@@ -30,9 +30,7 @@ body {
    
 }
 
-.header {
-    background: black;
-}
+
 
 canvas {
     display: block;
@@ -265,11 +263,7 @@ a.pure-button-primary {
     text-align: center;
 }
 
-.shadow {
-    -moz-box-shadow: 2px 4px 2px #575757;
-    -webkit-box-shadow: 2px 4px 2px #575757;
-    box-shadow: 2px 4px 2px #575757;
-    }
+
     
 
 /* This is the class used for the footer */
