@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Satoshi Beer. Incontra, educa, bevi.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Satoshi Beer">
+    <meta property="og:description" content="Eventi Bitcoin in tutta italia con una buona birra">
+    <meta property="og:image">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://github.com/Mendace/satoshibeer.org/blob/main/assets/satoshibeer.jpg?raw=true">
+    <meta property="twitter:title" content="Satoshi Beer Italia" />
+    <title>Satoshi Beer | Eventi Bitcoin</title>
+
+    <meta name="google-site-verification" content="emRFUETEGRDF7asigWETNPXlUwAp1H2Q39XmYMEC1OE" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Space+Mono:ital,wght@1,700&family=Unbounded:wght@400;700;800&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles.css">
+    
+    
+    
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+
+
+
+</head>
+<body>
+
+
+
+
+    <div class="content" id="where">
+
+      <div class="pure-g center"  style="background-color:#ffffff">
+        <div id='map' style='width: 100%; height: 500px;'></div>
+        <script>
+    
+            mapboxgl.accessToken = 'pk.eyJ1IjoibWVuZGFjZSIsImEiOiJjbGRxYm1yZnIxYTVnM29xZzN6eTl6bW04In0.I7CE7Iu7PQHsis_4dvqucw';
+            
+            const map = new mapboxgl.Map({
+              container: 'map',
+              style: 'mapbox://styles/mapbox/navigation-night-v1',
+              center: [9.11, 45.28],
+              zoom: 4
+            });
+            
+            // code from the next step will go here!
+            const geojson = {
+      type: 'FeatureCollection',
+      features: [
+        {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [11.09703315, 43.88062274]
+          },
+          properties: {
+            title: 'Prato',
+            description: '<b>Satoshi Beer Prato</b><br/><a target="_blank" href="https://t.me/SatoshiBeerPrato">t.me/SatoshiBeerPrato</a>'
+          }
+        },
+        {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [12.661452, 45.956368]
+          },
+          properties: {
+            title: 'Pordenone',
+            description: '<b>Satoshi Beer Pordenone</b><br/><a target="_blank" href="https://t.me/SatoshiBeerPordenone">t.me/SatoshiBeerPordenone</a>'
+          }
+        },
+        {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [9.677270, 45.698264]
+          },
+          properties: {
+            title: 'Bergamo',
+            description: '<b>Satoshi Beer Bergamo</b><br/><a target="_blank" href="https://t.me/SatoshiBeerBergamo">t.me/SatoshiBeerBergamo</a>'
+          }
+        },
+        {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [12.203529, 44.418360]
+          },
+          properties: {
+            title: 'Romagna',
+            description: '<b>Satoshi Beer Romagna</b><br/><a target="_blank" href="https://t.me/SatoshiBeerRomagna">t.me/SatoshiBeerRomagna</a>'
+          }
+        },
+        {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [12.3155151, 45.4408474]
+          },
+          properties: {
+            title: 'Venezia',
+            description: '<b>Satoshi Beer Venezia</b><br/><a target="_blank" href="https://t.me/bitcoininvenice">t.me/SatoshiBeerVenezia</a>'
+          }
+        },
+        {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [9.1903474, 45.46679408]
+          },
+          properties: {
+            title: 'Milano',
+            description: '<b>Satoshi Beer Milano</b><br/><a target="_blank" href="https://t.me/SatoshiBeerMilano">t.me/SatoshiBeerMilano</a>'
+          }
+        },
+        {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [12.0537, 44.2228]
+          },
+          properties: {
+            title: 'Forli Cesena',
+            description: '<b>Satoshi Beer Forli Cesena</b><br/><a target="_blank" href="https://t.me/satoshibeerforlicesena">t.me/SatoshiBeerforlicesena</a>'
+          }
+        },
+        {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [13.800000, 45.633331]
+          },
+          properties: {
+            title: 'Trieste',
+            description: '<b>Satoshi Beer Trieste</b><br/><a target="_blank" href="https://t.me/SatoshiBeerTrieste">t.me/SatoshiBeerTrieste</a>'
+          }
+        },
+        {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [10.327835, 44.801327]
+          },
+          properties: {
+            title: 'Parma',
+            description: '<b>Satoshi Beer Parma</b><br/><a target="_blank" href="https://t.me/SatoshiBeerParma">t.me/SatoshiBeerParma</a>'
+          }
+        },
+      ]
+    };
+            // add markers to map
+    for (const feature of geojson.features) {
+      // create a HTML element for each feature
+      const el = document.createElement('div');
+      el.className = 'marker';
+    
+      // make a marker for each feature and add to the map
+      new mapboxgl.Marker(el)
+      .setLngLat(feature.geometry.coordinates)
+      .setPopup(
+        new mapboxgl.Popup({ offset: 25 }) // add popups
+          .setHTML(
+            `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`
+          )
+      )
+      .addTo(map);
+    }
+    
+    // Add zoom and rotation controls to the map.
+    map.addControl(new mapboxgl.NavigationControl());
+            </script>
+    
+    </div>
+
+   
+    </div>
+
+</div>
+</div>
+
+
+
+</body>
+</html>
