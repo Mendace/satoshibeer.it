@@ -23,5 +23,7 @@ Satoshi Beer Bergamo https://t.me/SatoshiBeerBergamo
 
 Satoshi Beer Romagna https://t.me/SatoshiBeerRomagna
 
+Satoshi Beer Brescia https://t.me/SatoshiBeerBrescia
+
 
 ![alt text](https://github.com/Mendace/satoshibeer.org/blob/main/assets/tappo.png?raw=true) 
