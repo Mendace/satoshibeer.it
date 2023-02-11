@@ -1,7 +1,9 @@
 # satoshibeer.org
 Lista dei Satoshi Beer italiani
 
-Satoshi Beer Prato https://t.me/SatoshiBeer
+Canale Generale https://t.me/SatoshiBeer
+
+Satoshi Beer Prato https://t.me/SatoshiBeerPrato
 
 Satoshi Beer Parma https://t.me/SatoshiBeerParma
 
@@ -16,6 +18,10 @@ Satoshi Beer Venezia https://t.me/bitcoininvenice
 Satoshi Beer Genova https://t.me/SatoshiBeerGenova
 
 Satoshi Beer Pordenone https://t.me/SatoshiBeerPordenone
+
+Satoshi Beer Bergamo https://t.me/SatoshiBeerBergamo
+
+Satoshi Beer Romagna https://t.me/SatoshiBeerRomagna
 
 
 ![alt text](https://github.com/Mendace/satoshibeer.org/blob/main/assets/tappo.png?raw=true) 
