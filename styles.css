@@ -116,6 +116,11 @@ a.pure-button-primary {
     font-size: 120%;
 }
 
+a{
+    color: #fffb05;
+    text-decoration: none;
+}
+
 
 /*
  * -- MENU STYLES --
