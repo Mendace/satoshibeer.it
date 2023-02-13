@@ -25,5 +25,9 @@ Satoshi Beer Romagna https://t.me/SatoshiBeerRomagna
 
 Satoshi Beer Brescia https://t.me/SatoshiBeerBrescia
 
+Satoshi Beer Roma https://t.me/SatoshiBeerRoma
+
+Satoshi Beer Paesi Vesuviani https://t.me/SatoshiBeerPaesiVesuviani
+
 
 ![alt text](https://github.com/Mendace/satoshibeer.org/blob/main/assets/tappo.png?raw=true) 
